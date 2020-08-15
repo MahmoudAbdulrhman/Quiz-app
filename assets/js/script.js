@@ -1,7 +1,11 @@
-var answerButton  = document.querySelector(".btn")
+var buttonEl = document.querySelector("#action-btn")
+var getStart = document.querySelector(".startQuiz")
+var qustionEl = document.querySelector("#question-container")
 
-document.addEventListener("click",startQuiz)
+buttonEl.addEventListener('click', startQuiz)
 
-function startQuiz (){
-    console.log(answerButton);
+
+function startQuiz () {    
+getStart.classList.add('hide')
+qustionEl.classList.remove('hide')
 }
