@@ -63,13 +63,14 @@ body{
 }
 
 .btn-grid .btn{
+    display: flex;
+    justify-content: center;
     color:white;
     background-color: navy;
     justify-content: center;
     margin-top:10px;
-    padding: 10px;
+    width: 70%;
     font-size: 18px;
-    width: 50%;
     cursor: pointer;
     border-radius: 10px;
     transition-duration: 0.4s;
@@ -79,3 +80,11 @@ body{
 .btn-grid  .btn:active{
     transform: translateY(10px);
 }
+
+.btn.correct {
+    color: yellow;
+  }
+  
+  .btn.wrong {
+  color: red;
+  }
