@@ -11,6 +11,19 @@ body{
     margin: 250px;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 110%;
+    margin: -100px 0px 100px 0px;
+    padding: 10px ;
+}
+
+header .h2 {
+    color: navy;
+    background-color: navy;
+}
+
 .startQuiz {
     display: flex;
     justify-content: center;
@@ -45,6 +58,10 @@ body{
     display: none;
 }
 
+.hide-f {
+    display: none;
+}
+
 
 .container{
     display: flex;
@@ -56,20 +73,25 @@ body{
 }
 
 #question-container{
-    padding: 10px;
+    padding: auto;
     color: navy;
     text-align: left;
     font-size: 25px;
 }
 
+#question-container #question{
+    width: 100%;
+
+}
 .btn-grid .btn{
     display: flex;
-    justify-content: center;
+    align-items: center;
     color:white;
     background-color: navy;
     justify-content: center;
     margin-top:10px;
-    width: 70%;
+    padding: 10px;
+    width: 100%;
     font-size: 18px;
     cursor: pointer;
     border-radius: 10px;

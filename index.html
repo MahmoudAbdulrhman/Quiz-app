@@ -7,10 +7,14 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-      <div>
+     <header>
+         <h2>timer</h2>
+         <h2>score</h2>
+     </header>
+     <div>
          <div class="startQuiz">
-            <h2>Try to beat the highiest score befor the time run out</h2>
-            <button class="btn" id="action-btn" >start Quiz</button>
+            <h2>Try to beat the highest score before the time runs out.</h2>
+            <button class="btn" id="action-btn" >Start Quiz</button>
          </div>
         
          <div class="container" class="hide">
@@ -25,7 +29,14 @@
             </div>
          </div>
         </div>   
-
+      <div id="bored" >
+           <h2 class="hide-f">score</h2>
+           <div class="hide-f">
+                <label for="name">Enter full name</label>
+                <input type="text" placeholder="Your Name" name="name" id="name" class="form-input" /> 
+                <button class="submit" >submit</button>
+           </div>
+      </div>
 
 
 
