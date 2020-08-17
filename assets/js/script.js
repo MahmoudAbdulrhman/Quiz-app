@@ -6,6 +6,7 @@ const displayQustion = document.getElementById ("question")
 const displayAnswer =document.getElementById ("answer-buttons")
 const scoreBored = document.getElementById("bored")
 
+
 let randomQustionEl, qustionList
 
 /*Random Qustion selection*/
